@@ -11,22 +11,32 @@
    weird.
 
    ```js
-   var "animal" = "monkey";
-   var "monkey" = animal;
-   var x= 15;
-   var y =10;
-   var var = "huh?";
-   var true = false;
-   var isTenEven = 10 % 2 = 0;
+   var animal = "monkey"; 
+   var monkey = "animal";  
+   var x= 15; correct
+   var y =10; correct
+   var varr = "huh?";
+   var x = false;
+   var isTenEven = 10 % 2;
    ```
 
 2. Perform the following in the console:
 
    + Create a variable `firstName` and assign your first name to it.
+   ```js
+   var firstname = "youssef"
+
+   ```
    + Create another variable, `lastName`, and assign your last name to it.
+   ```js 
+   var lastname ="rouissi"
+   ```
    + Have a middle name? If so, repeat the process.
    + Now, create a variable `fullName` and assign your full name to it by using
      the above variables.
+  ```js
+  var fullName = firstname+lastname
+  ```
 
 
 3. For each of the following code blocks, **use a whiteboard (or a piece of paper)** to reason about
@@ -38,14 +48,14 @@
    ```js
    var x = 5;
    x + 10;
-   x; // => ???
+   x = 15;
    ```
 
    ```js
    var x = 17;
    x = (x + 1) / 2;
    x * 4;
-   x; // => ???
+   x = 32;
    ```
 
    ```js
@@ -53,7 +63,7 @@
    var y = 20;
    x = y;
    y = y + 7;
-   x; // => ???
+   x =20;
    ```
 
    ```js
@@ -62,7 +72,7 @@
    x = (x * 4) - 3;
    x + 17;
    x = x + y;
-   x; // => ???
+   x = 42
    ```
 
 4. Write a function called `counter` that, when invoked, always returns a number
